@@ -9,10 +9,10 @@ The idea behind it is that as an organisation providing Automation Testing we ne
 Usage is fairly simple, calling the GetWebDriver command will return the directory of the Webdriver exe file which is downloaded for you if it is not already installed.
 The Environment variable is also set, so you should be able to instantiate a new driver with ease.
 
-`
+```
 Manager.GetWebDriver(Manager.BrowserType.CHROME);
 Manager.GetWebDriver(Manager.BrowserType.CHROME, Manager.OperatingSystem.WINDOWS);
-`
+````
 
 Using this format you are able to specify Browsers from the list
 *Chrome
@@ -28,7 +28,7 @@ You are also able to choose from the following Operating Systems:
 Automatic browser detection is currently only supported for windows.
 For Mac and Linux you will need to create a new Browser object and pass it into the GetWebDriver Method
 
-`   
+``` 
     Browser browser = new Browser() 
     {
         Name = "Google Chrome",
@@ -36,7 +36,7 @@ For Mac and Linux you will need to create a new Browser object and pass it into 
     };
 
     var chromedriverDir = Manager.GetWebDriver(Manager.BrowserType.CHROME, Manager.OperatingSystem.LINUX, browser);
-`
+```
 
 
 <br/><br/><br/>
