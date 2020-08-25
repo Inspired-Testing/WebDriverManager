@@ -1,10 +1,10 @@
 # Welcome to Inspired Testing's WebDriverManager
 ![InspiredTestingLogo](https://www.inspiredtesting.com/images/logo-500px.png)
-https://www.inspiredtesting.com/
+<br>https://www.inspiredtesting.com/
 
 ## Language
-*C#
-*Developed using .net core
+* C#
+* Developed using .net core
 
 ## Purpose
 This project is heavily inspired by Bonigarcia and his Java WebDriverManager found at: https://github.com/bonigarcia/webdrivermanager 
@@ -21,15 +21,15 @@ Manager.GetWebDriver(Manager.BrowserType.CHROME, Manager.OperatingSystem.WINDOWS
 ````
 
 Using this format you are able to specify Browsers from the list
-*Chrome
-*Firefox
-*Internet Explorer
-*Edge (Chromium)
+* Chrome
+* Firefox
+* Internet Explorer
+* Edge (Chromium)
 
 You are also able to choose from the following Operating Systems:
-*Windows
-*Linux
-*MAC
+* Windows
+* Linux
+* MAC
 
 Automatic browser detection is currently only supported for windows.
 For Mac and Linux you will need to create a new Browser object and pass it into the GetWebDriver Method
