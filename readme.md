@@ -1,9 +1,14 @@
 # Welcome to Inspired Testing's WebDriverManager
 ![InspiredTestingLogo](https://www.inspiredtesting.com/images/logo-500px.png)
+https://www.inspiredtesting.com/
+
+## Language
+*C#
+*Developed using .net core
 
 ## Purpose
-This project is heavily inspired by Bonigarcia and his Java WebDriverManager found at: https://github.com/bonigarcia/webdrivermanager
-The idea behind it is that as an organisation providing Automation Testing we need a way to seemlessly manager Selenium WebDrivers without having to maintain and explain - but also in C#!
+This project is heavily inspired by Bonigarcia and his Java WebDriverManager found at: https://github.com/bonigarcia/webdrivermanager 
+<br>The idea behind it is that as an organisation providing Automation Testing we need a way to seemlessly manage Selenium WebDrivers without having to maintain and explain - but also in C#!
 
 ### Usage
 
