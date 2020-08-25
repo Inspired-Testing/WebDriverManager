@@ -1,4 +1,5 @@
-# Welcome to Inspired Testings WebDriverManager
+# Welcome to Inspired Testing's WebDriverManager
+![InspiredTestingLogo](https://www.inspiredtesting.com/images/logo-500px.png)
 
 ## Purpose
 This project is heavily inspired by Bonigarcia and his Java WebDriverManager found at: https://github.com/bonigarcia/webdrivermanager
