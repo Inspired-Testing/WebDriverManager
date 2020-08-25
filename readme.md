@@ -9,8 +9,10 @@ The idea behind it is that as an organisation providing Automation Testing we ne
 Usage is fairly simple, calling the GetWebDriver command will return the directory of the Webdriver exe file which is downloaded for you if it is not already installed.
 The Environment variable is also set, so you should be able to instantiate a new driver with ease.
 
-`Manager.GetWebDriver(Manager.BrowserType.CHROME);`
-`Manager.GetWebDriver(Manager.BrowserType.CHROME, Manager.OperatingSystem.WINDOWS);`
+`
+Manager.GetWebDriver(Manager.BrowserType.CHROME);
+Manager.GetWebDriver(Manager.BrowserType.CHROME, Manager.OperatingSystem.WINDOWS);
+`
 
 Using this format you are able to specify Browsers from the list
 *Chrome
